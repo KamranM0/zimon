@@ -1,0 +1,88 @@
+.title{
+    margin: 10px;
+}
+body{
+    background-color: darkblue;
+}
+.background-red{
+    background-color: red;
+}
+h1{
+    font-family:'Press Start 2P', cursive;;
+    font-size: 70px;
+    text-align: center;
+    color: bisque;
+}
+.btns{
+    margin:30px auto ;
+    width: 550px;
+    height: 550px;
+    position: relative;
+
+}
+.btn{
+    height: 250px;
+    width: 250px;
+    border-radius: 50px;
+    border-width: 10px;
+}
+.b1{
+    position:absolute;
+    top: 0px;
+    left:0px;
+    background-color: green;
+}
+.b2{
+    position: absolute;
+    top: 0px;
+    right: 0px;
+    background-color: red;
+}
+.b3{
+    position:absolute;
+    bottom: 0px;
+    left:0px;
+    background-color: yellow;
+}
+.b4{
+    position: absolute;
+    bottom: 0px;
+    right: 0px;
+    background-color: blue;
+}
+
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Koulen&family=Lato&family=Nunito&family=Playfair+Display:ital@1&family=Prata&family=Raleway:ital,wght@1,100&family=Roboto&family=Roboto+Condensed&family=Teko&display=swap');
+
+.s-btn{
+
+font-family: 'Press Start 2P', cursive;
+font-weight: 900;
+font-size: 20px;
+color: #000000;
+background-color: #ffe37e;
+padding: 10px 17px;
+border: solid #ffe37e 1px;
+box-shadow: rgb(0, 0, 0) 0px 0px 0px 0px;
+border-radius: 40px;
+transition : 1320ms;
+transform: translateY(0);
+display: flex;
+flex-direction: row;
+align-items: center;
+cursor: pointer;
+text-transform: uppercase;
+position: absolute;
+margin: auto auto;
+}
+
+.s-btn:hover{
+
+transition : 1320ms;
+padding: 10px 17px;
+transform : translateY(-0px);
+background-color: #fff;
+color: #0066cc;
+border: solid 1px #0066cc;
+}
+
+
